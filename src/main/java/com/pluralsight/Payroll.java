@@ -1,17 +1,7 @@
 package com.pluralsight;
 import java.io.*;
-import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.util.*;
-
-import tools.jackson.core.*;
-import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.ObjectMapper;
-import tools.jackson.databind.SerializationContext;
-import tools.jackson.databind.jsontype.TypeSerializer;
-import tools.jackson.databind.node.ArrayNode;
-import tools.jackson.databind.node.JsonNodeType;
-import tools.jackson.databind.node.ObjectNode;
 
 public class Payroll {
     public static void main(String[] args) throws IOException {
