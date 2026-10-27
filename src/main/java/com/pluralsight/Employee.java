@@ -1,3 +1,5 @@
+package com.pluralsight;
+
 public class Employee {
     private int employeeId;
     private String name;
@@ -41,5 +43,9 @@ public class Employee {
 
     public void setPayRate(double payRate) {
         this.payRate = payRate;
+    }
+
+    public double getGrossPay() {
+        return payRate * hoursWorked;
     }
 }
